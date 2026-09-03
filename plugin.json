@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tabulous",
+  "version": "1.0.0",
+  "description": "Connect your agent to a Tabulous lab data workspace. Read registry tables, records, and files, and stage changes for human review in Tabulous.",
+  "author": {
+    "name": "Tabulous",
+    "url": "https://www.tabulous.ai"
+  },
+  "homepage": "https://www.tabulous.ai",
+  "repository": "https://github.com/labscape/tabulous-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "tabulous",
+    "mcp",
+    "lab-data",
+    "registry",
+    "biotech",
+    "science"
+  ]
+}
