@@ -11,9 +11,12 @@ Once connected, an agent can:
 - List Registry Tables and read records from them
 - Browse files stored in a record's folder
 - Look up Toolkit items, workspace members, and workspace info
-- Stage changes (records, schema, Toolkit items, files) as a **changeset** for review
+- Search and summarize change history for records, Registry Table schemas, and Toolkit items (who changed what, and when)
+- Refresh a Dataset field from its linked spreadsheet
+- Stage changes (records, schema, Toolkit items, files, and messages through your messaging integration, such as Slack) as a **changeset** for review
+- Set up the `tabulous` CLI for richer workflows such as file uploads and downloads
 
-Agents cannot write to your workspace directly. Every change is staged as a changeset with a review link, and a person approves it in Tabulous before anything goes live. Read `docs` through the MCP server for the full agent workflow guide.
+Agents never change your workspace without review, with one exception: refreshing a Dataset field from its linked spreadsheet saves a new version of that field's tables right away. The previous version stays in the field's history and can be restored. Every other change is staged as a changeset with a review link, and a person approves it in Tabulous before anything goes live. Read `docs` through the MCP server for the full agent workflow guide.
 
 ## Installation
 
