@@ -12,7 +12,6 @@ Once connected, an agent can:
 - Browse files stored in a record's folder
 - Look up Toolkit items, workspace members, and workspace info
 - Search and summarize change history for records, Registry Table schemas, and Toolkit items (who changed what, and when)
-- Re-sync a Dataset field's cached tables from its linked spreadsheet
 - Stage changes (records, schema, Toolkit items, files, and messages through your messaging integration, such as Slack) as a **changeset** for review
 - Set up the `tabulous` CLI for richer workflows such as file uploads and downloads
 
